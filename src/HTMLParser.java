@@ -12,6 +12,8 @@ public class HTMLParser
     public static void main (String[] args)throws IOException
     {
         System.out.println("Hello World!");
+    Document a = new Document();
+    Document b = new Document("test");
 
     }
 
