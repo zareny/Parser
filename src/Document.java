@@ -1,26 +1,25 @@
-
 public class Document
   {
 
-  private String content;
+    private String content;
 
-    public Document(String s)
+    public Document (String s)
       {
         content = s;
       }
 
-    public Document()
+    public Document ()
       {
         content = null;
       }
 
-  public String getContent()
-    {
-    return content;
-    }
+    public String getContent ()
+      {
+        return content;
+      }
 
-  public void setContent(String content)
-    {
-    this.content = content;
-    }
+    public void setContent (String content)
+      {
+        this.content = content;
+      }
   }
