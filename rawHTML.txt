@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+ <head> 
+  <title>Address Resolution Protocol - Wikipedia, the free encyclopedia</title> 
+  <meta charset="UTF-8" /> 
+  <meta name="generator" content="MediaWiki 1.21wmf6" /> 
+  <link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit" /> 
+  <link rel="edit" title="Edit this page" href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit" /> 
+  <link rel="apple-touch-icon" href="//en.wikipedia.org/apple-touch-icon.png" /> 
+  <link rel="shortcut icon" href="/favicon.ico" /> 
+  <link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" /> 
+  <link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" /> 
+  <link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" /> 
+  <link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" /> 
+  <link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" /> 
+  <meta name="ResourceLoaderDynamicStyles" content="" /> 
+  <link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" /> 
+  <style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style> 
+  <script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script> 
+  <script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Address_Resolution_Protocol","wgTitle":"Address Resolution Protocol","wgCurRevisionId":528579423,"wgArticleId":47986,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Internet standards","Link protocols"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Address_Resolution_Protocol","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"68a784d877271e7409e22150deb4ed22","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false},"wikilove-recipient":"","wikilove-anon":0,"mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":47986,"title":"Address Resolution Protocol","namespace":0,"categories":["Internet standards","Link protocols"],"permissionLevel":"aft-reader"}});
+}</script>
+  <script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script> 
+  <script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script> 
+  <script src="//bits.wikimedia.org/geoiplookup"></script>
+  <link rel="dns-prefetch" href="//meta.wikimedia.org" />
+  <!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins-1.21wmf6/vector/csshover.min.htc")}</style><![endif]-->
+ </head> 
+ <body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Address_Resolution_Protocol skin-vector action-view vector-animateLayout"> 
+  <div id="mw-page-base" class="noprint"></div> 
+  <div id="mw-head-base" class="noprint"></div> 
+  <!-- content --> 
+  <div id="content" class="mw-body" role="main"> 
+   <a id="top"></a> 
+   <div id="mw-js-message" style="display:none;"></div> 
+   <!-- sitenotice --> 
+   <div id="siteNotice">
+    <!-- CentralNotice -->
+    <script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script> 
+   </div> 
+   <!-- /sitenotice --> 
+   <!-- firstHeading --> 
+   <h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Address Resolution Protocol</span></h1> 
+   <!-- /firstHeading --> 
+   <!-- bodyContent --> 
+   <div id="bodyContent"> 
+    <!-- tagline --> 
+    <div id="siteSub">
+     From Wikipedia, the free encyclopedia
+    </div> 
+    <!-- /tagline --> 
+    <!-- subtitle --> 
+    <div id="contentSub"></div> 
+    <!-- /subtitle --> 
+    <!-- jumpto --> 
+    <div id="jump-to-nav" class="mw-jump">
+      Jump to: 
+     <a href="#mw-head">navigation</a>, 
+     <a href="#p-search">search</a> 
+    </div> 
+    <!-- /jumpto --> 
+    <!-- bodycontent --> 
+    <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+     <p><b>Address Resolution Protocol</b> (<b>ARP</b>) is a <a href="/wiki/Telecommunication" title="Telecommunication">telecommunications</a> protocol used for resolution of <a href="/wiki/Network_layer" title="Network layer">network layer</a> addresses into <a href="/wiki/Link_layer" title="Link layer">link layer</a> addresses, a critical function in multiple-access networks. ARP was defined by <a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc826">RFC 826</a> in 1982.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> It is <a href="/wiki/Internet_Standard" title="Internet Standard">Internet Standard</a> STD 37. It is also the name of the program for manipulating these addresses in most operating systems.</p> 
+     <p>ARP has been implemented in many combinations of network and overlaying internetwork technologies, such as <a href="/wiki/IPv4" title="IPv4">IPv4</a>, <a href="/wiki/Chaosnet" title="Chaosnet">Chaosnet</a>, <a href="/wiki/DECnet" title="DECnet">DECnet</a> and Xerox <a href="/wiki/PARC_Universal_Packet" title="PARC Universal Packet">PARC Universal Packet</a> (PUP) using <a href="/wiki/IEEE_802" title="IEEE 802">IEEE 802</a> standards, <a href="/wiki/FDDI" title="FDDI" class="mw-redirect">FDDI</a>, <a href="/wiki/X.25" title="X.25">X.25</a>, <a href="/wiki/Frame_Relay" title="Frame Relay">Frame Relay</a> and <a href="/wiki/Asynchronous_Transfer_Mode" title="Asynchronous Transfer Mode">Asynchronous Transfer Mode</a> (ATM), IPv4 over <a href="/wiki/IEEE_802.3" title="IEEE 802.3">IEEE 802.3</a> and <a href="/wiki/IEEE_802.11" title="IEEE 802.11">IEEE 802.11</a> being the most common cases.</p> 
+     <p>In <a href="/wiki/IPv6" title="IPv6">Internet Protocol Version 6</a> (IPv6) networks, the functionality of ARP is provided by the <a href="/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">Neighbor Discovery Protocol</a> (NDP).</p> 
+     <table class="vertical-navbox nowraplinks hlist" cellspacing="5" style="float: right; clear: right; background-color: #f9f9f9; border: 1px solid #aaa; width:22em; margin: 0 0 1em 1em; padding: 0.2em; border-spacing: 0.4em 0; text-align: center; line-height: 1.4em; font-size: 88%;" cellpadding="0"> 
+      <tbody>
+       <tr> 
+        <th class="" style="padding: 0.2em 0.4em 0.2em; font-size: 145%; line-height: 1.2em;"><a href="/wiki/Internet_protocol_suite" title="Internet protocol suite">Internet protocols</a></th> 
+       </tr> 
+       <tr> 
+        <th class="" style="padding: 0.1em;&nbsp;;"><a href="/wiki/Application_layer" title="Application layer">Application layer</a></th> 
+       </tr> 
+       <tr> 
+        <td class="" style="padding:0 0.1em 0.4em;&nbsp;;"> 
+         <ul> 
+          <li><a href="/wiki/Dynamic_Host_Configuration_Protocol" title="Dynamic Host Configuration Protocol">DHCP</a></li> 
+          <li><a href="/wiki/DHCPv6" title="DHCPv6">DHCPv6</a></li> 
+          <li><a href="/wiki/Domain_Name_System" title="Domain Name System">DNS</a></li> 
+          <li><a href="/wiki/File_Transfer_Protocol" title="File Transfer Protocol">FTP</a></li> 
+          <li><a href="/wiki/Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a></li> 
+          <li><a href="/wiki/Internet_Message_Access_Protocol" title="Internet Message Access Protocol">IMAP</a></li> 
+          <li><a href="/wiki/Internet_Relay_Chat" title="Internet Relay Chat">IRC</a></li> 
+          <li><a href="/wiki/Lightweight_Directory_Access_Protocol" title="Lightweight Directory Access Protocol">LDAP</a></li> 
+          <li><a href="/wiki/Media_Gateway_Control_Protocol" title="Media Gateway Control Protocol">MGCP</a></li> 
+          <li><a href="/wiki/Network_News_Transfer_Protocol" title="Network News Transfer Protocol">NNTP</a></li> 
+          <li><a href="/wiki/Network_Time_Protocol" title="Network Time Protocol">NTP</a></li> 
+          <li><a href="/wiki/Post_Office_Protocol" title="Post Office Protocol">POP</a></li> 
+          <li><a href="/wiki/Open_Network_Computing_Remote_Procedure_Call" title="Open Network Computing Remote Procedure Call">RPC</a></li> 
+          <li><a href="/wiki/Real-time_Transport_Protocol" title="Real-time Transport Protocol">RTP</a></li> 
+          <li><a href="/wiki/Real-time_Transport_Control_Protocol" title="Real-time Transport Control Protocol" class="mw-redirect">RTCP</a></li> 
+          <li><a href="/wiki/Real_Time_Streaming_Protocol" title="Real Time Streaming Protocol">RTSP</a></li> 
+          <li><a href="/wiki/Session_Initiation_Protocol" title="Session Initiation Protocol">SIP</a></li> 
+          <li><a href="/wiki/Simple_Mail_Transfer_Protocol" title="Simple Mail Transfer Protocol">SMTP</a></li> 
+          <li><a href="/wiki/Simple_Network_Management_Protocol" title="Simple Network Management Protocol">SNMP</a></li> 
+          <li><a href="/wiki/SOCKS" title="SOCKS">SOCKS</a></li> 
+          <li><a href="/wiki/Secure_Shell" title="Secure Shell">SSH</a></li> 
+          <li><a href="/wiki/Telnet" title="Telnet">Telnet</a></li> 
+          <li><a href="/wiki/Transport_Layer_Security" title="Transport Layer Security">TLS/SSL</a></li> 
+          <li><a href="/wiki/XMPP" title="XMPP">XMPP</a></li> 
+          <li><a href="/wiki/Category:Application_layer_protocols" title="Category:Application layer protocols">(more)</a></li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+        <th class="" style="padding: 0.1em;&nbsp;;"><a href="/wiki/Transport_layer" title="Transport layer">Transport layer</a></th> 
+       </tr> 
+       <tr> 
+        <td class="" style="padding:0 0.1em 0.4em;&nbsp;;"> 
+         <ul> 
+          <li><a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">TCP</a></li> 
+          <li><a href="/wiki/User_Datagram_Protocol" title="User Datagram Protocol">UDP</a></li> 
+          <li><a href="/wiki/Datagram_Congestion_Control_Protocol" title="Datagram Congestion Control Protocol">DCCP</a></li> 
+          <li><a href="/wiki/Stream_Control_Transmission_Protocol" title="Stream Control Transmission Protocol">SCTP</a></li> 
+          <li><a href="/wiki/Resource_Reservation_Protocol" title="Resource Reservation Protocol">RSVP</a></li> 
+          <li><a href="/wiki/Category:Transport_layer_protocols" title="Category:Transport layer protocols">(more)</a></li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+        <th class="" style="padding: 0.1em;&nbsp;;"><a href="/wiki/Routing_protocol" title="Routing protocol">Routing protocols</a> *</th> 
+       </tr> 
+       <tr> 
+        <td class="" style="padding:0 0.1em 0.4em;&nbsp;;"> 
+         <ul> 
+          <li><a href="/wiki/Border_Gateway_Protocol" title="Border Gateway Protocol">BGP</a></li> 
+          <li><a href="/wiki/Open_Shortest_Path_First" title="Open Shortest Path First">OSPF</a></li> 
+          <li><a href="/wiki/Routing_Information_Protocol" title="Routing Information Protocol">RIP</a></li> 
+          <li><a href="/wiki/Category:Routing_protocols" title="Category:Routing protocols">(more)</a></li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+        <th class="" style="padding: 0.1em;&nbsp;;"><a href="/wiki/Internet_layer" title="Internet layer">Internet layer</a></th> 
+       </tr> 
+       <tr> 
+        <td class="" style="padding:0 0.1em 0.4em;&nbsp;;"> 
+         <ul> 
+          <li><a href="/wiki/Internet_Protocol" title="Internet Protocol">IP</a> 
+           <ul> 
+            <li><a href="/wiki/IPv4" title="IPv4">IPv4</a></li> 
+            <li><a href="/wiki/IPv6" title="IPv6">IPv6</a></li> 
+           </ul> </li> 
+          <li><a href="/wiki/Internet_Control_Message_Protocol" title="Internet Control Message Protocol">ICMP</a></li> 
+          <li><a href="/wiki/ICMPv6" title="ICMPv6">ICMPv6</a></li> 
+          <li><a href="/wiki/Explicit_Congestion_Notification" title="Explicit Congestion Notification">ECN</a></li> 
+          <li><a href="/wiki/Internet_Group_Management_Protocol" title="Internet Group Management Protocol">IGMP</a></li> 
+          <li><a href="/wiki/IPsec" title="IPsec">IPsec</a></li> 
+          <li><a href="/wiki/Category:Internet_layer_protocols" title="Category:Internet layer protocols">(more)</a></li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+        <th class="" style="padding: 0.1em;&nbsp;;"><a href="/wiki/Link_layer" title="Link layer">Link layer</a></th> 
+       </tr> 
+       <tr> 
+        <td class="" style="padding:0 0.1em 0.4em;&nbsp;;"> 
+         <ul> 
+          <li><strong class="selflink">ARP/InARP</strong></li> 
+          <li><a href="/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">NDP</a></li> 
+          <li><a href="/wiki/Tunneling_protocol" title="Tunneling protocol">Tunnels</a> 
+           <ul> 
+            <li><a href="/wiki/Layer_2_Tunneling_Protocol" title="Layer 2 Tunneling Protocol">L2TP</a></li> 
+           </ul> </li> 
+          <li><a href="/wiki/Point-to-point_protocol" title="Point-to-point protocol">PPP</a></li> 
+          <li><a href="/wiki/Media_access_control" title="Media access control">Media access control</a> 
+           <ul> 
+            <li><a href="/wiki/Ethernet" title="Ethernet">Ethernet</a></li> 
+            <li><a href="/wiki/Digital_subscriber_line" title="Digital subscriber line">DSL</a></li> 
+            <li><a href="/wiki/Integrated_Services_Digital_Network" title="Integrated Services Digital Network">ISDN</a></li> 
+            <li><a href="/wiki/Fiber_Distributed_Data_Interface" title="Fiber Distributed Data Interface">FDDI</a></li> 
+           </ul> </li> 
+          <li><a href="/wiki/Category:Link_protocols" title="Category:Link protocols">(more)</a></li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+        <td class="">&nbsp;<b>*</b> Not a layer. A routing protocol belongs either to application or network layer.</td> 
+       </tr> 
+       <tr> 
+        <td style="text-align: right; font-size: 115%;"> 
+         <div class="noprint plainlinks hlist navbar mini" style=""> 
+          <ul> 
+           <li class="nv-view"><a href="/wiki/Template:IPstack" title="Template:IPstack"><span title="View this template" style="">v</span></a></li> 
+           <li class="nv-talk"><a href="/wiki/Template_talk:IPstack" title="Template talk:IPstack"><span title="Discuss this template" style="">t</span></a></li> 
+           <li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:IPstack&amp;action=edit"><span title="Edit this template" style="">e</span></a></li> 
+          </ul> 
+         </div> </td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <table id="toc" class="toc"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <div id="toctitle"> 
+          <h2>Contents</h2> 
+         </div> 
+         <ul> 
+          <li class="toclevel-1 tocsection-1"><a href="#Operating_scope"><span class="tocnumber">1</span> <span class="toctext">Operating scope</span></a></li> 
+          <li class="toclevel-1 tocsection-2"><a href="#Packet_structure"><span class="tocnumber">2</span> <span class="toctext">Packet structure</span></a></li> 
+          <li class="toclevel-1 tocsection-3"><a href="#Example"><span class="tocnumber">3</span> <span class="toctext">Example</span></a></li> 
+          <li class="toclevel-1 tocsection-4"><a href="#ARP_probe"><span class="tocnumber">4</span> <span class="toctext">ARP probe</span></a></li> 
+          <li class="toclevel-1 tocsection-5"><a href="#ARP_announcements"><span class="tocnumber">5</span> <span class="toctext">ARP announcements</span></a></li> 
+          <li class="toclevel-1 tocsection-6"><a href="#ARP_mediation"><span class="tocnumber">6</span> <span class="toctext">ARP mediation</span></a></li> 
+          <li class="toclevel-1 tocsection-7"><a href="#Inverse_ARP_and_Reverse_ARP"><span class="tocnumber">7</span> <span class="toctext">Inverse ARP and Reverse ARP</span></a></li> 
+          <li class="toclevel-1 tocsection-8"><a href="#ARP_spoofing_and_Proxy_ARP"><span class="tocnumber">8</span> <span class="toctext">ARP spoofing and Proxy ARP</span></a></li> 
+          <li class="toclevel-1 tocsection-9"><a href="#Alternatives_to_ARP"><span class="tocnumber">9</span> <span class="toctext">Alternatives to ARP</span></a></li> 
+          <li class="toclevel-1 tocsection-10"><a href="#ARP_Stuffing"><span class="tocnumber">10</span> <span class="toctext">ARP Stuffing</span></a></li> 
+          <li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">11</span> <span class="toctext">See also</span></a></li> 
+          <li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">12</span> <span class="toctext">References</span></a></li> 
+          <li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">13</span> <span class="toctext">External links</span></a></li> 
+         </ul> </td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=1" title="Edit section: Operating scope">edit</a>]</span> <span class="mw-headline" id="Operating_scope">Operating scope</span></h2> 
+     <p>The Address Resolution Protocol is a request and reply protocol that runs encapsulated by the line protocol. It is communicated within the boundaries of a single network, never routed across internetwork nodes. This property places ARP into the <a href="/wiki/Link_Layer" title="Link Layer" class="mw-redirect">Link Layer</a> of the <a href="/wiki/Internet_Protocol_Suite" title="Internet Protocol Suite" class="mw-redirect">Internet Protocol Suite</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup>, while in the <a href="/wiki/Open_Systems_Interconnection" title="Open Systems Interconnection">Open Systems Interconnection</a> (OSI) model, it is often described as residing between Layers 2 and 3, being encapsulated by Layer 2 protocols. However, ARP was not developed in the OSI framework.</p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=2" title="Edit section: Packet structure">edit</a>]</span> <span class="mw-headline" id="Packet_structure">Packet structure</span></h2> 
+     <p>The Address Resolution Protocol uses a simple message format that contains one address resolution request or response. The size of the ARP message depends on the upper layer and lower layer address sizes, which are given by the type of networking protocol (usually <a href="/wiki/IPv4" title="IPv4">IPv4</a>) in use and the type of hardware or virtual link layer that the upper layer protocol is running on. The message header specifies these types, as well as the size of addresses of each. The message header is completed with the operation code for request (1) and reply (2). The payload of the packet consists of four addresses, the hardware and protocol address of the sender and receiver hosts.</p> 
+     <p>The principal packet structure of ARP packets is shown in the following table which illustrates the case of IPv4 networks running on Ethernet. In this scenario, the packet has 48-bit fields for the sender hardware address (SHA) and target hardware address (THA), and 32-bit fields for the corresponding sender and target protocol addresses (SPA and TPA). Thus, the ARP packet size in this case is 28 bytes. The EtherType for ARP is 0x0806.</p> 
+     <table border="0" align="right"> 
+      <tbody>
+       <tr> 
+        <td> 
+         <table class="wikitable" style="margin: 0 auto; text-align: center; width: 30em;"> 
+          <tbody>
+           <tr> 
+            <th colspan="17">Internet Protocol (IPv4) over Ethernet ARP packet</th> 
+           </tr> 
+           <tr> 
+            <th colspan="1">bit offset</th> 
+            <th colspan="8" width="50%">0 – 7</th> 
+            <th colspan="8" width="50%">8 – 15</th> 
+           </tr> 
+           <tr> 
+            <th>0</th> 
+            <td colspan="16">Hardware type (HTYPE)</td> 
+           </tr> 
+           <tr> 
+            <th>16</th> 
+            <td colspan="16">Protocol type (PTYPE)</td> 
+           </tr> 
+           <tr> 
+            <th>32</th> 
+            <td colspan="8">Hardware address length (HLEN)</td> 
+            <td colspan="8">Protocol address length (PLEN)</td> 
+           </tr> 
+           <tr> 
+            <th>48</th> 
+            <td colspan="16">Operation (OPER)</td> 
+           </tr> 
+           <tr> 
+            <th>64</th> 
+            <td colspan="16" bgcolor="#F0FFF0">Sender hardware address (SHA) (first 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>80</th> 
+            <td colspan="16" bgcolor="#F0FFF0">(next 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>96</th> 
+            <td colspan="16" bgcolor="#F0FFF0">(last 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>112</th> 
+            <td colspan="16" bgcolor="#D0FFD0">Sender protocol address (SPA) (first 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>128</th> 
+            <td colspan="16" bgcolor="#D0FFD0">(last 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>144</th> 
+            <td colspan="16" bgcolor="#F0F0FF">Target hardware address (THA) (first 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>160</th> 
+            <td colspan="16" bgcolor="#F0F0FF">(next 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>176</th> 
+            <td colspan="16" bgcolor="#F0F0FF">(last 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>192</th> 
+            <td colspan="16" bgcolor="#D0D0FF">Target protocol address (TPA) (first 16 bits)</td> 
+           </tr> 
+           <tr> 
+            <th>208</th> 
+            <td colspan="16" bgcolor="#D0D0FF">(last 16 bits)</td> 
+           </tr> 
+          </tbody>
+         </table> </td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <dl> 
+      <dt>
+       Hardware type (HTYPE)
+      </dt> 
+      <dd>
+       This field specifies the network protocol type. Example: Ethernet is 1.
+      </dd> 
+      <dt>
+       Protocol type (PTYPE)
+      </dt> 
+      <dd>
+       This field specifies the internetwork protocol for which the ARP request is intended. For IPv4, this has the value 0x0800. The permitted PTYPE values share a numbering space with those for 
+       <a href="/wiki/EtherType" title="EtherType">EtherType</a>.
+       <sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup>
+       <sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup>
+       <sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup>
+      </dd> 
+      <dt>
+       Hardware length (HLEN)
+      </dt> 
+      <dd>
+       Length (in 
+       <a href="/wiki/Octet_(computing)" title="Octet (computing)">octets</a>) of a hardware address. Ethernet addresses size is 6.
+      </dd> 
+      <dt>
+       Protocol length (PLEN)
+      </dt> 
+      <dd>
+       Length (in octets) of addresses used in the upper layer protocol. (The upper layer protocol specified in PTYPE.) IPv4 address size is 4.
+      </dd> 
+      <dt>
+       Operation&nbsp;
+      </dt> 
+      <dd>
+       Specifies the operation that the sender is performing: 1 for request, 2 for reply.
+      </dd> 
+      <dt>
+       Sender hardware address (SHA)
+      </dt> 
+      <dd>
+       media address of the sender.
+      </dd> 
+      <dt>
+       Sender protocol address (SPA)
+      </dt> 
+      <dd>
+       internetwork address of the sender.
+      </dd> 
+      <dt>
+       Target hardware address (THA)
+      </dt> 
+      <dd>
+       media address of the intended receiver. This field is ignored in requests.
+      </dd> 
+      <dt>
+       Target protocol address (TPA)
+      </dt> 
+      <dd>
+       internetwork address of the intended receiver.
+      </dd> 
+     </dl> 
+     <p>ARP protocol parameter values have been standardized and are maintained by the <a href="/wiki/Internet_Assigned_Numbers_Authority" title="Internet Assigned Numbers Authority">Internet Assigned Numbers Authority</a> (IANA).<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=3" title="Edit section: Example">edit</a>]</span> <span class="mw-headline" id="Example">Example</span></h2> 
+     <p>For example, the computers <i>Matterhorn</i> and <i>Washington</i> are in an office, connected to each other on the office <a href="/wiki/Local_area_network" title="Local area network">local area network</a> by <a href="/wiki/Ethernet" title="Ethernet">Ethernet</a> cables and <a href="/wiki/Network_switches" title="Network switches" class="mw-redirect">network switches</a>, with no intervening <a href="/wiki/Gateway_(telecommunications)" title="Gateway (telecommunications)">gateways</a> or <a href="/wiki/Router_(computing)" title="Router (computing)">routers</a>. Matterhorn wants to send a packet to Washington. Through other means, it determines that Washington's IP address is 192.168.0.55. In order to send the message, it also needs to know Washington's MAC address. First, Matterhorn uses a cached ARP table to look up 192.168.0.55 for any existing records of Washington's MAC address (00:eb:24:b2:05:ac). If the MAC address is found, it sends the IP packet on the link layer to address 00:eb:24:b2:05:ac via the local network cabling. If the cache did not produce a result for 192.168.0.55, Matterhorn has to send a broadcast ARP message (destination FF:FF:FF:FF:FF:FF) requesting an answer for 192.168.0.55. Washington responds with its MAC address (00:eb:24:b2:05:ac). Washington may insert an entry for Matterhorn into its own ARP table for future use. The response information is cached in Matterhorn's ARP table and the message can now be sent.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=4" title="Edit section: ARP probe">edit</a>]</span> <span class="mw-headline" id="ARP_probe">ARP probe</span></h2> 
+     <p>An <b>ARP probe</b> is an ARP request constructed with an all-zero <i>sender IP address</i>. The term is used in the <i>IPv4 Address Conflict Detection</i> specification (<a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5227">RFC 5227</a>). Before beginning to use an IPv4 address (whether received from manual configuration, DHCP, or some other means), a host implementing this specification must test to see if the address is already in use, by broadcasting ARP probe packets.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=5" title="Edit section: ARP announcements">edit</a>]</span> <span class="mw-headline" id="ARP_announcements">ARP announcements</span></h2> 
+     <p>ARP may also be used as a simple announcement protocol. This is useful for updating other hosts' mapping of a hardware address when the sender's IP address or MAC address has changed. Such an announcement, also called a <i>gratuitous ARP</i> message, is usually broadcast as an ARP request containing the sender's protocol address (SPA) in the target field (TPA=SPA), with the target hardware address (THA) set to zero. An alternative is to broadcast an ARP reply with the sender's hardware and protocol addresses (SHA and SPA) duplicated in the target fields (TPA=SPA, THA=SHA).</p> 
+     <p>An ARP announcement is not intended to solicit a reply; instead it updates any cached entries in the ARP tables of other hosts that receive the packet. The operation code may indicate a request or a reply because the ARP standard specifies that the opcode is only processed after the ARP table has been updated from the address fields.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup><sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></p> 
+     <p>Many operating systems perform gratuitous ARP during startup. That helps to resolve problems which would otherwise occur if, for example, a <a href="/wiki/Network_interface_controller" title="Network interface controller">network card</a> was recently changed (changing the IP-address-to-MAC-address mapping) and other hosts still have the old mapping in their ARP caches.</p> 
+     <p>Gratuitous ARP is also used by some interface drivers to provide load balancing for incoming traffic. In a team of network cards, it is used to announce a different MAC address within the team that should receive incoming packets.</p> 
+     <p>ARP announcements can be used to defend <a href="/wiki/Link-local_address" title="Link-local address">link-local IP addresses</a> in the <a href="/wiki/Zeroconf" title="Zeroconf" class="mw-redirect">Zeroconf</a> protocol (<a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc3927">RFC 3927</a>), and for IP address takeover within <a href="/wiki/High-availability_cluster" title="High-availability cluster">high-availability clusters</a>.</p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=6" title="Edit section: ARP mediation">edit</a>]</span> <span class="mw-headline" id="ARP_mediation">ARP mediation</span></h2> 
+     <p><b>ARP mediation</b> refers to the process of resolving Layer 2 addresses through a <a href="/wiki/Virtual_private_network#Virtual_private_wire_and_private_line_services_.28VPWS_and_VPLS.29" title="Virtual private network">Virtual Private Wire Service (VPWS)</a> when different resolution protocols are used on the connected circuits, e.g., <a href="/wiki/Ethernet" title="Ethernet">Ethernet</a> on one end and <a href="/wiki/Frame_Relay" title="Frame Relay">Frame Relay</a> on the other. In <a href="/wiki/IPv4" title="IPv4">IPv4</a>, each <a href="/wiki/Provider_Edge" title="Provider Edge">Provider Edge</a> (PE) device discovers the IP address of the locally attached <a href="/wiki/Customer_edge" title="Customer edge">Customer Edge</a> (CE) device and distributes that IP address to the corresponding remote PE device. Then each PE device responds to local ARP requests using the IP address of the remote CE device and the hardware address of the local PE device. In <a href="/wiki/IPv6" title="IPv6">IPv6</a>, each PE device discovers the IP address of both local and remote CE devices and then intercepts local <a href="/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">Neighbor Discovery</a> (ND) and Inverse Neighbor Discovery (IND) packets and forwards them to the remote PE device.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=7" title="Edit section: Inverse ARP and Reverse ARP">edit</a>]</span> <span class="mw-headline" id="Inverse_ARP_and_Reverse_ARP">Inverse ARP and Reverse ARP</span></h2> 
+     <p><b>Inverse Address Resolution Protocol</b> (Inverse ARP or InARP) is used to obtain <a href="/wiki/Network_Layer" title="Network Layer" class="mw-redirect">Network Layer</a> addresses (for example, <a href="/wiki/IP_address" title="IP address">IP addresses</a>) of other nodes from <a href="/wiki/Data_Link_Layer" title="Data Link Layer" class="mw-redirect">Data Link Layer</a> (Layer 2) addresses. It is primarily used in <a href="/wiki/Frame_Relay" title="Frame Relay">Frame Relay</a> (<a href="/wiki/DLCI" title="DLCI" class="mw-redirect">DLCI</a>) and ATM networks, in which Layer 2 addresses of <a href="/wiki/Virtual_circuit" title="Virtual circuit">virtual circuits</a> are sometimes obtained from Layer 2 signaling, and the corresponding Layer 3 addresses must be available before those virtual circuits can be used.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></p> 
+     <p>Since ARP translates Layer 3 addresses to Layer 2 addresses, InARP may be described as its inverse. In addition, InARP is implemented as a protocol extension to ARP: it uses the same packet format as ARP, but different operation codes.</p> 
+     <p>The <a href="/wiki/Reverse_Address_Resolution_Protocol" title="Reverse Address Resolution Protocol">Reverse Address Resolution Protocol</a> (Reverse ARP or RARP), like InARP, translates Layer 2 addresses to Layer 3 addresses. However, in InARP the requesting station queries the Layer 3 address of another node, whereas RARP is used to obtain the Layer 3 address of the requesting station itself for address configuration purposes. RARP is obsolete; it was replaced by <a href="/wiki/BOOTP" title="BOOTP" class="mw-redirect">BOOTP</a>, which was later superseded by the <a href="/wiki/Dynamic_Host_Configuration_Protocol" title="Dynamic Host Configuration Protocol">Dynamic Host Configuration Protocol</a> (DHCP).<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=8" title="Edit section: ARP spoofing and Proxy ARP">edit</a>]</span> <span class="mw-headline" id="ARP_spoofing_and_Proxy_ARP">ARP spoofing and Proxy ARP</span></h2> 
+     <div class="thumb tright"> 
+      <div class="thumbinner" style="width:202px;">
+       <a href="/wiki/File:ARP_Spoofing.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/ARP_Spoofing.svg/200px-ARP_Spoofing.svg.png" width="200" height="153" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/ARP_Spoofing.svg/300px-ARP_Spoofing.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/33/ARP_Spoofing.svg/400px-ARP_Spoofing.svg.png 2x" /></a> 
+       <div class="thumbcaption"> 
+        <div class="magnify">
+         <a href="/wiki/File:ARP_Spoofing.svg" class="internal" title="Enlarge"><img src="//bits.wikimedia.org/static-1.21wmf6/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a>
+        </div> A successful 
+        <a href="/wiki/ARP_spoofing" title="ARP spoofing">ARP spoofing</a> attack allows an attacker to perform a man-in-the-middle attack.
+       </div> 
+      </div> 
+     </div> 
+     <div class="rellink relarticle mainarticle">
+      Main article: 
+      <a href="/wiki/ARP_spoofing" title="ARP spoofing">ARP spoofing</a>
+     </div> 
+     <div class="rellink relarticle mainarticle">
+      Main article: 
+      <a href="/wiki/Proxy_ARP" title="Proxy ARP">Proxy ARP</a>
+     </div> 
+     <p>Because ARP does not provide methods for authenticating ARP replies on a network, ARP replies can come from systems other than the one with the required Layer 2 address. An ARP <i>proxy</i> is a system which answers the ARP request on behalf of another system for which it will forward traffic, normally as a part of the network's design, such as for a dialup internet service. By contrast, in ARP <i>spoofing</i> the answering system, or <i>spoofer</i>, replies to a request for another system's address with the aim of intercepting data bound for that system. A malicious user may use ARP spoofing to perform a <a href="/wiki/Man-in-the-middle" title="Man-in-the-middle" class="mw-redirect">man-in-the-middle</a> or <a href="/wiki/Denial-of-service" title="Denial-of-service" class="mw-redirect">denial-of-service</a> attack on other users on the network. Various software exists to both detect and perform ARP spoofing attacks, though ARP itself does not provide any methods of protection from such attacks.<sup id="cite_ref-grc_15-0" class="reference"><a href="#cite_note-grc-15"><span>[</span>15<span>]</span></a></sup></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=9" title="Edit section: Alternatives to ARP">edit</a>]</span> <span class="mw-headline" id="Alternatives_to_ARP">Alternatives to ARP</span></h2> 
+     <p>Each computer maintains its own table of the mapping from <a href="/wiki/Layer_3" title="Layer 3" class="mw-redirect">Layer 3</a> addresses (e.g. <a href="/wiki/IP_addresses" title="IP addresses" class="mw-redirect">IP addresses</a>) to <a href="/wiki/Layer_2" title="Layer 2" class="mw-redirect">Layer 2</a> addresses (e.g. <a href="/wiki/Ethernet" title="Ethernet">ethernet</a> <a href="/wiki/MAC_addresses" title="MAC addresses" class="mw-redirect">MAC addresses</a>). In a modern computer this is maintained almost entirely by ARP packets on the local network and it thus often called the 'ARP cache' as opposed to 'Layer 2 address table'. In older computers, where broadcast packets were considered an expensive resource, other methods were used to maintain this table, such as static configuration files,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> or centrally maintained lists. Since at least the 1980s<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> networked computers have had a command called <i>arp</i> for interrogating or manipulating this table, and practically all modern personal computers have a variant of this.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup><sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup><sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=10" title="Edit section: ARP Stuffing">edit</a>]</span> <span class="mw-headline" id="ARP_Stuffing">ARP Stuffing</span></h2> 
+     <p>Embedded systems such as networked cameras<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> and networked power distribution devices,<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup> which lack a user interface, can use so-called <i>ARP stuffing</i> to make an initial network connection, although this is a misnomer as there is no ARP <i>protocol</i> involved. This is a solution to an issue in network management of consumer devices, specifically the allocation of IP addresses of ethernet devices where 1) the user doesn't have the ability to control <a href="/wiki/DHCP" title="DHCP" class="mw-redirect">DHCP</a> or similar address allocation protocols, 2) the device doesn't have a user interface to configure it, and 3) the user's computer can't communicate with it because it has no suitable IP address.</p> 
+     <p>The solution adopted is as follows: the user's computer has an IP address <i>stuffed</i> manually into its address table (normally with the <i>arp</i> command with the MAC address taken from a label on the device) and then sends special packets to the device, typically a <a href="/wiki/Ping_(networking_utility)" title="Ping (networking utility)">ping</a> packet with a non-default size. The device then adopts this IP address, and the user then communicates with it by <a href="/wiki/Telnet" title="Telnet">telnet</a> or <a href="/wiki/Http" title="Http" class="mw-redirect">web</a> protocols to complete the configuration. Such devices typically have a method to disable this process once the device is operating normally, as it is open to <a href="/wiki/Denial_of_Service" title="Denial of Service" class="mw-redirect">Denial of Service</a> attack.</p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2> 
+     <ul> 
+      <li><a href="/wiki/Arping" title="Arping">Arping</a></li> 
+      <li><a href="/wiki/Arptables" title="Arptables">Arptables</a></li> 
+      <li><a href="/wiki/Arpwatch" title="Arpwatch">Arpwatch</a></li> 
+      <li><a href="/wiki/Proxy_ARP" title="Proxy ARP">Proxy ARP</a></li> 
+      <li><a href="/wiki/ARP_Spoofing" title="ARP Spoofing" class="mw-redirect">ARP Spoofing</a></li> 
+      <li><a href="/wiki/SLARP" title="SLARP" class="mw-redirect">Serial line ARP</a></li> 
+      <li><a href="/wiki/Sleep_Proxy_Service" title="Sleep Proxy Service" class="mw-redirect">Sleep Proxy Service</a></li> 
+     </ul> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=12" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2> 
+     <ul> 
+      <li>Neighboring Subsystem by Rami Rosen <a rel="nofollow" class="external autonumber" href="https://www.linuxfoundation.org/collaborate/workgroups/networking/neighboringsubsystem">[1]</a></li> 
+     </ul> 
+     <div class="reflist" style="list-style-type: decimal;"> 
+      <ol class="references"> 
+       <li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web">David C. Plummer (1982-11). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc826">&quot;RFC 826, An Ethernet Address Resolution Protocol -- or -- Converting Network Protocol Addresses to 48.bit Ethernet Address for Transmission on Ethernet Hardware&quot;</a>. Internet Engineering Task Force, Network Working Group<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc826">http://tools.ietf.org/html/rfc826</a></span>.</span></span></li> 
+       <li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web">Braden, R. (1989 October). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc1122">&quot;RFC 1122 - Requirements for Internet Hosts -- Communication Layers&quot;</a>. Internet Engineering Task Force<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc1122">http://tools.ietf.org/html/rfc1122</a></span>.</span></span></li> 
+       <li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.iana.org/assignments/arp-parameters/">IANA ARP - &quot;Protocol Type&quot;</a></span></li> 
+       <li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.iana.org/assignments/ethernet-numbers">IANA - Ethertype values</a></span></li> 
+       <li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5342">RFC 5342</a></span></li> 
+       <li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.iana.org/assignments/arp-parameters/">&quot;IANA ARP parameter assignments&quot;</a>. <a href="/wiki/Internet_Assigned_Numbers_Authority" title="Internet Assigned Numbers Authority">IANA</a>. 2009-04-24<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.iana.org/assignments/arp-parameters/">http://www.iana.org/assignments/arp-parameters/</a></span>.</span></span></li> 
+       <li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Chappell, Laura A. and Tittel, Ed. <i>Guide to TCP/IP, Third Edition</i>. Thomson Course Technology, 2007, pp. 115-116.</span></li> 
+       <li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><span class="citation web">Cheshire, S. (2008 July). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc5227">&quot;RFC 5227 - IPv4 Address Conflict Detection&quot;</a>. Internet Engineering Task Force<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc5227">http://tools.ietf.org/html/rfc5227</a></span>.</span></span></li> 
+       <li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www1.ietf.org/mail-archive/web/dhcwg/current/msg03797.html">Gratuitous ARP in DHCP vs. IPv4 ACD Draft</a></span></li> 
+       <li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc2002#section-4.6">RFC 2002 Section 4.6</a></span></li> 
+       <li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc2131#section-4.4.1">RFC 2131 DHCP – Last lines of Section 4.4.1</a></span></li> 
+       <li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><span class="citation web">Shah, H., et. al. (2012 June). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc6575">&quot;RFC 6575 Address Resolution Protocol (ARP) Mediation for IP Interworking of Layer 2 VPNs&quot;</a>. Internet Engineering Task Force<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc6575">http://tools.ietf.org/html/rfc6575</a></span>.</span></span></li> 
+       <li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><span class="citation web">T. Bradley, et. al. (1998-09). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc2390">&quot;RFC 2390 - Inverse Address Resolution Protocol&quot;</a>. Internet Engineering Task Force<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc2390">http://tools.ietf.org/html/rfc2390</a></span>.</span></span></li> 
+       <li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation web">Finlayson, Mann, Mogul, Theimer (1984-06). <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc903">&quot;RFC 903 - A Reverse Address Resolution Protocol&quot;</a>. Internet Engineering Task Force<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc903">http://tools.ietf.org/html/rfc903</a></span>.</span></span></li> 
+       <li id="cite_note-grc-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-grc_15-0">^</a></b></span> <span class="reference-text"><span class="citation web">Steve Gibson (2005-12-11). <a rel="nofollow" class="external text" href="http://www.grc.com/nat/arp.htm">&quot;ARP Cache Poisoning&quot;</a>. <a href="/wiki/Gibson_Research_Corporation" title="Gibson Research Corporation" class="mw-redirect">GRC</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.grc.com/nat/arp.htm">http://www.grc.com/nat/arp.htm</a></span>.</span></span></li> 
+       <li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation web">Sun Microsystems. <a rel="nofollow" class="external text" href="http://www.freebsd.org/cgi/man.cgi?query=ethers&amp;sektion=5&amp;apropos=0&amp;manpath=SunOS+4.1.3">&quot;SunOS manual page for ethers(5) file&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.freebsd.org/cgi/man.cgi?query=ethers&amp;sektion=5&amp;apropos=0&amp;manpath=SunOS+4.1.3">http://www.freebsd.org/cgi/man.cgi?query=ethers&amp;sektion=5&amp;apropos=0&amp;manpath=SunOS+4.1.3</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+       <li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><span class="citation web">University of California, Berkeley. <a rel="nofollow" class="external text" href="http://www.freebsd.org/cgi/man.cgi?query=arp&amp;apropos=0&amp;sektion=0&amp;manpath=2.10+BSD&amp;arch=default&amp;format=html">&quot;BSD manual page for arp(8C) command&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.freebsd.org/cgi/man.cgi?query=arp&amp;apropos=0&amp;sektion=0&amp;manpath=2.10+BSD&amp;arch=default&amp;format=html">http://www.freebsd.org/cgi/man.cgi?query=arp&amp;apropos=0&amp;sektion=0&amp;manpath=2.10+BSD&amp;arch=default&amp;format=html</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+       <li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation web">Canonical. <a rel="nofollow" class="external text" href="http://manpages.ubuntu.com/manpages/lucid/man8/arp.8.html">&quot;Ubuntu manual page for arp(8) command&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://manpages.ubuntu.com/manpages/lucid/man8/arp.8.html">http://manpages.ubuntu.com/manpages/lucid/man8/arp.8.html</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+       <li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><span class="citation web">Apple Computer. <a rel="nofollow" class="external text" href="http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man8/arp.8.html">&quot;Mac OSX manual page for arp(8) command&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man8/arp.8.html">http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man8/arp.8.html</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+       <li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><span class="citation web">Microsoft. <a rel="nofollow" class="external text" href="http://technet.microsoft.com/en-us/library/cc786759%28WS.10%29.aspx">&quot;Windows help for arp command&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://technet.microsoft.com/en-us/library/cc786759%28WS.10%29.aspx">http://technet.microsoft.com/en-us/library/cc786759%28WS.10%29.aspx</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+       <li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><span class="citation web">Cisco. <a rel="nofollow" class="external text" href="http://www.cisco.com/en/US/docs/ios/12_3/ipaddr/command/reference/ip1_s1g.html#wp1079902">&quot;Cisco reference for 'show ip arp' command&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.cisco.com/en/US/docs/ios/12_3/ipaddr/command/reference/ip1_s1g.html#wp1079902">http://www.cisco.com/en/US/docs/ios/12_3/ipaddr/command/reference/ip1_s1g.html#wp1079902</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+       <li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><span class="citation web">Axis Communication. <a rel="nofollow" class="external text" href="http://www.axis.com/files/manuals/ig_p13Series_38731_en_1006.pdf">&quot;Axis P13 Network Camera Series Installation Guide&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.axis.com/files/manuals/ig_p13Series_38731_en_1006.pdf">http://www.axis.com/files/manuals/ig_p13Series_38731_en_1006.pdf</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+       <li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><span class="citation web">American Power Corporation. <a rel="nofollow" class="external text" href="http://www.apcmedia.com/salestools/ASTE-6Z6K56_R0_EN.pdf">&quot;Switched Rack Power Distribution Unit Installation and Quick Start Manual&quot;</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.apcmedia.com/salestools/ASTE-6Z6K56_R0_EN.pdf">http://www.apcmedia.com/salestools/ASTE-6Z6K56_R0_EN.pdf</a></span><span class="reference-accessdate">. Retrieved 2011-09-28</span>.</span></span></li> 
+      </ol> 
+     </div> 
+     <p><span class="citation foldoc">This article is based on material taken from the <a href="/wiki/Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a> prior to 1 November 2008 and incorporated under the &quot;relicensing&quot; terms of the <a href="/wiki/GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a>, version 1.3 or later.</span></p> 
+     <h2><span class="editsection">[<a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2> 
+     <ul> 
+      <li><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc826">RFC 826</a> - Ethernet Address Resolution Protocol, Internet Standard STD 37.</li> 
+      <li><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc903">RFC 903</a> - Reverse Address Resolution Protocol, Internet Standard STD 38.</li> 
+      <li><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc2390">RFC 2390</a> - Inverse Address Resolution Protocol, draft standard</li> 
+      <li><a class="external mw-magiclink-rfc" href="//tools.ietf.org/html/rfc5227">RFC 5227</a> - IPv4 Address Conflict Detection, proposed standard</li> 
+      <li><a rel="nofollow" class="external text" href="http://arpon.sourceforge.net">ArpON home page</a></li> 
+      <li><a rel="nofollow" class="external text" href="http://www.eventhelix.com/RealtimeMantra/Networking/Arp.pdf">ARP Sequence Diagram (pdf)</a></li> 
+      <li><a rel="nofollow" class="external text" href="http://wiki.wireshark.org/Gratuitous_ARP">Gratuitous ARP</a></li> 
+      <li><a rel="nofollow" class="external text" href="http://www.authsecu.com/arpflood/">Free ARP tools with source code (French)</a></li> 
+      <li><a rel="nofollow" class="external text" href="http://sid.rstack.org/arp-sk/">ARP-SK ARP traffic generation tools</a></li> 
+      <li><a rel="nofollow" class="external text" href="http://wiki.wireshark.org/SampleCaptures#head-2fb4a82886c1d8c722134b44461e22e5f7f54b32">Sample Capture file from WireSharkWiki</a></li> 
+     </ul> 
+     <!-- 
+NewPP limit report
+Preprocessor visited node count: 8574/1000000
+Preprocessor generated node count: 19151/1500000
+Post-expand include size: 39610/2048000 bytes
+Template argument size: 19728/2048000 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 0/500
+--> 
+     <!-- Saved in parser cache with key enwiki:pcache:idhash:47986-0!*!0!!en!4!* and timestamp 20121221164533 --> 
+    </div> 
+    <!-- /bodycontent --> 
+    <!-- printfooter --> 
+    <div class="printfooter">
+      Retrieved from &quot;
+     <a href="http://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;oldid=528579423">http://en.wikipedia.org/w/index.php?title=Address_Resolution_Protocol&amp;oldid=528579423</a>&quot; 
+    </div> 
+    <!-- /printfooter --> 
+    <!-- catlinks --> 
+    <div id="catlinks" class="catlinks">
+     <div id="mw-normal-catlinks" class="mw-normal-catlinks">
+      <a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: 
+      <ul>
+       <li><a href="/wiki/Category:Internet_standards" title="Category:Internet standards">Internet standards</a></li>
+       <li><a href="/wiki/Category:Link_protocols" title="Category:Link protocols">Link protocols</a></li>
+      </ul>
+     </div>
+    </div> 
+    <!-- /catlinks --> 
+    <div class="visualClear"></div> 
+    <!-- debughtml --> 
+    <!-- /debughtml --> 
+   </div> 
+   <!-- /bodyContent --> 
+  </div> 
+  <!-- /content --> 
+  <div id="mw-navigation"> 
+   <h2>Navigation menu</h2> 
+   <!-- header --> 
+   <div id="mw-head" class="noprint"> 
+    <!-- 0 --> 
+    <div id="p-personal" role="navigation" class=""> 
+     <h3>Personal tools</h3> 
+     <ul> 
+      <li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Address+Resolution+Protocol&amp;type=signup">Create account</a></li>
+      <li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Address+Resolution+Protocol" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li> 
+     </ul> 
+    </div> 
+    <!-- /0 --> 
+    <div id="left-navigation"> 
+     <!-- 0 --> 
+     <div id="p-namespaces" role="navigation" class="vectorTabs"> 
+      <h3>Namespaces</h3> 
+      <ul> 
+       <li id="ca-nstab-main" class="selected"><span><a href="/wiki/Address_Resolution_Protocol" title="View the content page [c]" accesskey="c">Article</a></span></li> 
+       <li id="ca-talk"><span><a href="/wiki/Talk:Address_Resolution_Protocol" title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li> 
+      </ul> 
+     </div> 
+     <!-- /0 --> 
+     <!-- 1 --> 
+     <div id="p-variants" role="navigation" class="vectorMenu emptyPortlet"> 
+      <h3 id="mw-vector-current-variant"> </h3> 
+      <h3><span>Variants</span><a href="#"></a></h3> 
+      <div class="menu"> 
+       <ul> 
+       </ul> 
+      </div> 
+     </div> 
+     <!-- /1 --> 
+    </div> 
+    <div id="right-navigation"> 
+     <!-- 0 --> 
+     <div id="p-views" role="navigation" class="vectorTabs"> 
+      <h3>Views</h3> 
+      <ul> 
+       <li id="ca-view" class="selected"><span><a href="/wiki/Address_Resolution_Protocol">Read</a></span></li> 
+       <li id="ca-edit"><span><a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=edit" title="You can edit this page. 
+Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li> 
+       <li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=history" title="Past versions of this page [h]" accesskey="h">View history</a></span></li> 
+      </ul> 
+     </div> 
+     <!-- /0 --> 
+     <!-- 1 --> 
+     <div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet"> 
+      <h3><span>Actions</span><a href="#"></a></h3> 
+      <div class="menu"> 
+       <ul> 
+       </ul> 
+      </div> 
+     </div> 
+     <!-- /1 --> 
+     <!-- 2 --> 
+     <div id="p-search" role="search"> 
+      <h3><label for="searchInput">Search</label></h3> 
+      <form action="/w/index.php" id="searchform"> 
+       <div id="simpleSearch"> 
+        <input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /> 
+        <button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="//bits.wikimedia.org/static-1.21wmf6/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button> 
+        <input type="hidden" name="title" value="Special:Search" /> 
+       </div> 
+      </form> 
+     </div> 
+     <!-- /2 --> 
+    </div> 
+   </div> 
+   <!-- /header --> 
+   <!-- panel --> 
+   <div id="mw-panel" class="noprint"> 
+    <!-- logo --> 
+    <div id="p-logo" role="banner">
+     <a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page" title="Visit the main page"></a>
+    </div> 
+    <!-- /logo --> 
+    <!-- navigation --> 
+    <div class="portal" role="navigation" id="p-navigation"> 
+     <h3>Navigation</h3> 
+     <div class="body"> 
+      <ul> 
+       <li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li> 
+       <li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li> 
+       <li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li> 
+       <li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li> 
+       <li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li> 
+       <li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C12_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <!-- /navigation --> 
+    <!-- SEARCH --> 
+    <!-- /SEARCH --> 
+    <!-- interaction --> 
+    <div class="portal" role="navigation" id="p-interaction"> 
+     <h3>Interaction</h3> 
+     <div class="body"> 
+      <ul> 
+       <li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li> 
+       <li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li> 
+       <li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li> 
+       <li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li> 
+       <li id="n-contact"><a href="/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <!-- /interaction --> 
+    <!-- TOOLBOX --> 
+    <div class="portal" role="navigation" id="p-tb"> 
+     <h3>Toolbox</h3> 
+     <div class="body"> 
+      <ul> 
+       <li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Address_Resolution_Protocol" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li> 
+       <li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Address_Resolution_Protocol" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li> 
+       <li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li> 
+       <li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li> 
+       <li id="t-permalink"><a href="/w/index.php?title=Address_Resolution_Protocol&amp;oldid=528579423" title="Permanent link to this revision of the page">Permanent link</a></li> 
+       <li id="t-info"><a href="/w/index.php?title=Address_Resolution_Protocol&amp;action=info">Page information</a></li> 
+       <li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Address_Resolution_Protocol&amp;id=528579423" title="Information on how to cite this page">Cite this page</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <!-- /TOOLBOX --> 
+    <!-- coll-print_export --> 
+    <div class="portal" role="navigation" id="p-coll-print_export"> 
+     <h3>Print/export</h3> 
+     <div class="body"> 
+      <ul id="collectionPortletList">
+       <li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Address+Resolution+Protocol" title="Create a book or page collection" rel="nofollow">Create a book</a></li>
+       <li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Address+Resolution+Protocol&amp;oldid=528579423&amp;writer=rl" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li>
+       <li id="t-print"><a href="/w/index.php?title=Address_Resolution_Protocol&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+      </ul> 
+     </div> 
+    </div> 
+    <!-- /coll-print_export --> 
+    <!-- LANGUAGES --> 
+    <div class="portal" role="navigation" id="p-lang"> 
+     <h3>Languages</h3> 
+     <div class="body"> 
+      <ul> 
+       <li class="interwiki-an"><a href="//an.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="an" hreflang="an">Aragon&eacute;s</a></li> 
+       <li class="interwiki-bg"><a href="//bg.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="bg" hreflang="bg">Български</a></li> 
+       <li class="interwiki-bs"><a href="//bs.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="bs" hreflang="bs">Bosanski</a></li> 
+       <li class="interwiki-ca"><a href="//ca.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="ca" hreflang="ca">Catal&agrave;</a></li> 
+       <li class="interwiki-cs"><a href="//cs.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="cs" hreflang="cs">Česky</a></li> 
+       <li class="interwiki-da"><a href="//da.wikipedia.org/wiki/Address_resolution_protocol" title="Address resolution protocol" lang="da" hreflang="da">Dansk</a></li> 
+       <li class="interwiki-de"><a href="//de.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="de" hreflang="de">Deutsch</a></li> 
+       <li class="interwiki-et"><a href="//et.wikipedia.org/wiki/Aadressiteisenduse_protokoll" title="Aadressiteisenduse protokoll" lang="et" hreflang="et">Eesti</a></li> 
+       <li class="interwiki-el"><a href="//el.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="el" hreflang="el">Ελληνικά</a></li> 
+       <li class="interwiki-es"><a href="//es.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="es" hreflang="es">Espa&ntilde;ol</a></li> 
+       <li class="interwiki-eu"><a href="//eu.wikipedia.org/wiki/ARP" title="ARP" lang="eu" hreflang="eu">Euskara</a></li> 
+       <li class="interwiki-fr"><a href="//fr.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="fr" hreflang="fr">Fran&ccedil;ais</a></li> 
+       <li class="interwiki-gl"><a href="//gl.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="gl" hreflang="gl">Galego</a></li> 
+       <li class="interwiki-ko"><a href="//ko.wikipedia.org/wiki/%EC%A3%BC%EC%86%8C_%EA%B2%B0%EC%A0%95_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C" title="주소 결정 프로토콜" lang="ko" hreflang="ko">한국어</a></li> 
+       <li class="interwiki-hr"><a href="//hr.wikipedia.org/wiki/ARP" title="ARP" lang="hr" hreflang="hr">Hrvatski</a></li> 
+       <li class="interwiki-id"><a href="//id.wikipedia.org/wiki/Protokol_Resolusi_Alamat" title="Protokol Resolusi Alamat" lang="id" hreflang="id">Bahasa Indonesia</a></li> 
+       <li class="interwiki-it"><a href="//it.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="it" hreflang="it">Italiano</a></li> 
+       <li class="interwiki-he"><a href="//he.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="he" hreflang="he">עברית</a></li> 
+       <li class="interwiki-lv"><a href="//lv.wikipedia.org/wiki/ARP" title="ARP" lang="lv" hreflang="lv">Latviešu</a></li> 
+       <li class="interwiki-hu"><a href="//hu.wikipedia.org/wiki/ARP" title="ARP" lang="hu" hreflang="hu">Magyar</a></li> 
+       <li class="interwiki-nl"><a href="//nl.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="nl" hreflang="nl">Nederlands</a></li> 
+       <li class="interwiki-ja"><a href="//ja.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="ja" hreflang="ja">日本語</a></li> 
+       <li class="interwiki-no"><a href="//no.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="no" hreflang="no">Norsk (bokm&aring;l)‎</a></li> 
+       <li class="interwiki-nn"><a href="//nn.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li> 
+       <li class="interwiki-pl"><a href="//pl.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="pl" hreflang="pl">Polski</a></li> 
+       <li class="interwiki-pt"><a href="//pt.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="pt" hreflang="pt">Portugu&ecirc;s</a></li> 
+       <li class="interwiki-ru"><a href="//ru.wikipedia.org/wiki/ARP" title="ARP" lang="ru" hreflang="ru">Русский</a></li> 
+       <li class="interwiki-sk"><a href="//sk.wikipedia.org/wiki/Protokol_rozli%C5%A1ovania_adries" title="Protokol rozlišovania adries" lang="sk" hreflang="sk">Slovenčina</a></li> 
+       <li class="interwiki-sr"><a href="//sr.wikipedia.org/wiki/ARP" title="ARP" lang="sr" hreflang="sr">Српски / srpski</a></li> 
+       <li class="interwiki-fi"><a href="//fi.wikipedia.org/wiki/ARP" title="ARP" lang="fi" hreflang="fi">Suomi</a></li> 
+       <li class="interwiki-sv"><a href="//sv.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="sv" hreflang="sv">Svenska</a></li> 
+       <li class="interwiki-tr"><a href="//tr.wikipedia.org/wiki/Adres_%C3%87%C3%B6z%C3%BCmleme_Protokol%C3%BC" title="Adres &Ccedil;&ouml;z&uuml;mleme Protokol&uuml;" lang="tr" hreflang="tr">T&uuml;rk&ccedil;e</a></li> 
+       <li class="interwiki-uk"><a href="//uk.wikipedia.org/wiki/ARP" title="ARP" lang="uk" hreflang="uk">Українська</a></li> 
+       <li class="interwiki-yo"><a href="//yo.wikipedia.org/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol" lang="yo" hreflang="yo">Yor&ugrave;b&aacute;</a></li> 
+       <li class="interwiki-zh"><a href="//zh.wikipedia.org/wiki/%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%E5%8D%8F%E8%AE%AE" title="地址解析协议" lang="zh" hreflang="zh">中文</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <!-- /LANGUAGES --> 
+   </div> 
+   <!-- /panel --> 
+  </div> 
+  <!-- footer --> 
+  <div id="footer" role="contentinfo"> 
+   <ul id="footer-info"> 
+    <li id="footer-info-lastmod"> This page was last modified on 18 December 2012 at 03:30.<br /></li> 
+    <li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>; additional terms may apply. See <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br /> Wikipedia&reg; is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li>
+    <li class="noprint"><a class="internal" href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact us</a></li> 
+   </ul> 
+   <ul id="footer-places"> 
+    <li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li> 
+    <li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li> 
+    <li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li> 
+    <li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Address_Resolution_Protocol" class="noprint stopMobileRedirectToggle">Mobile view</a></li> 
+   </ul> 
+   <ul id="footer-icons" class="noprint"> 
+    <li id="footer-copyrightico"> <a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation" /></a> </li> 
+    <li id="footer-poweredbyico"> <a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.21wmf6/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a> </li> 
+   </ul> 
+   <div style="clear:both"></div> 
+  </div> 
+  <!-- /footer --> 
+  <script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script> 
+  <script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script> 
+  <script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script> 
+  <script src="/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&amp;action=raw&amp;ctype=text/javascript&amp;508635914"></script> 
+  <script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script> 
+  <!-- Served by srv232 in 0.152 secs. -->   
+ </body>
+</html>
