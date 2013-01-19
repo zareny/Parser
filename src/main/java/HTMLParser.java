@@ -13,9 +13,17 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.BufferedWriter;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.Reader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.LinkedList;
+import java.util.Locale;
+import java.util.StringTokenizer;
 
 public class HTMLParser
   {
@@ -41,6 +49,8 @@ public class HTMLParser
           }
 
         writeFiles (rawHTML, plaintextOutput);
+        
+        orderNumber();
       }
 
     public static Elements getLinks (Document d)
@@ -86,4 +96,77 @@ public class HTMLParser
             e.printStackTrace ();
           }
       }
+    
+    public static void orderNumber()              //Method for adding words to an arraylist, ordering the words and counting the number of times a word occurs
+    {
+        File fileName = new File("plaintextOutput.txt");                        
+        ArrayList<wordOccurences> wordList = new ArrayList<wordOccurences>();   //Creates an arraylist of wordOccurences objects
+        int size = 0;                       //Number of words added to the arraylist
+        boolean found = false;              //Boolean flag for when a word already exists in the arraylist              
+        
+        
+        try
+        {
+            BufferedReader inOne = new BufferedReader(new FileReader(fileName));        //Scans in words in the plaintextOutput.txt file
+            String line = null;                     //String formed from a line scanned in from the file
+            String word = null;                     //Words from a line broken up from the string tokenizer
+            while ((line = inOne.readLine()) != null)
+            {
+              StringTokenizer tokens = new StringTokenizer(line, " ");
+              while(tokens.hasMoreTokens())
+              { 
+                word = tokens.nextToken();
+                found = false;
+                
+                System.out.println("before for loop");
+                
+                if(wordList.size() == 0)                //If statement for adding the first word to the arraylist
+                {
+                    wordList.add(new wordOccurences(word,1));
+                    System.out.println("first word");
+                    size++;
+                }
+                
+                else
+                {   
+                    for(wordOccurences w : wordList)                       //Loop for searching the arraylist for a word and incrementing the number of occurences if a word is found
+                    {
+                        System.out.println("in for loop");
+                        
+                        if(word.equals(w.getWord()))
+                        {
+                            System.out.println("found");
+                            w.setOccurences(w.getOccurences() + 1);
+                            found = true;
+                                
+                        }
+                     }
+                    
+                    
+                           
+                 if(found == false)                                 //Adds a new word to the arraylist if it isn't found
+                 {
+                    wordList.add(new wordOccurences(word,1));
+                    System.out.println("not found");
+                    size++;
+                    System.out.println("Size: " + size);
+                 }         
+                    
+                  System.out.println("out for loop");  
+                }
+              }
+            }
+        }
+        
+        catch (IOException e)
+          {
+            e.printStackTrace ();
+          }
+          
+            String formattedString = wordList.toString()
+                                      .replace(",", "")  //remove the commas
+                                      .replace("[", "")  //remove the left bracket
+                                      .replace("]", ""); //remove the right bracket
+            System.out.println(formattedString);
+    }
   }
