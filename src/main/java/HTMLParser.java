@@ -20,6 +20,8 @@ import java.io.Reader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 import java.util.LinkedList;
 import java.util.Locale;
@@ -110,49 +112,40 @@ public class HTMLParser
             BufferedReader inOne = new BufferedReader(new FileReader(fileName));        //Scans in words in the plaintextOutput.txt file
             String line = null;                     //String formed from a line scanned in from the file
             String word = null;                     //Words from a line broken up from the string tokenizer
+            System.out.println ("Working...");
             while ((line = inOne.readLine()) != null)
             {
               StringTokenizer tokens = new StringTokenizer(line, " ");
               while(tokens.hasMoreTokens())
               { 
-                word = tokens.nextToken();
+                word = tokens.nextToken().toLowerCase();
                 found = false;
-                
-                System.out.println("before for loop");
                 
                 if(wordList.size() == 0)                //If statement for adding the first word to the arraylist
                 {
                     wordList.add(new wordOccurences(word,1));
-                    System.out.println("first word");
                     size++;
                 }
                 
                 else
                 {   
                     for(wordOccurences w : wordList)                       //Loop for searching the arraylist for a word and incrementing the number of occurences if a word is found
-                    {
-                        System.out.println("in for loop");
-                        
+                    {                      
                         if(word.equals(w.getWord()))
                         {
-                            System.out.println("found");
                             w.setOccurences(w.getOccurences() + 1);
                             found = true;
                                 
                         }
                      }
-                    
-                    
+                          
                            
                  if(found == false)                                 //Adds a new word to the arraylist if it isn't found
                  {
                     wordList.add(new wordOccurences(word,1));
-                    System.out.println("not found");
                     size++;
-                    System.out.println("Size: " + size);
                  }         
-                    
-                  System.out.println("out for loop");  
+                     
                 }
               }
             }
@@ -163,10 +156,14 @@ public class HTMLParser
             e.printStackTrace ();
           }
           
-            String formattedString = wordList.toString()
+            
+        Collections.sort(wordList);
+        
+        String formattedString = wordList.toString()
                                       .replace(",", "")  //remove the commas
                                       .replace("[", "")  //remove the left bracket
                                       .replace("]", ""); //remove the right bracket
-            System.out.println(formattedString);
+        System.out.println("Word list size: " + size);    
+        System.out.println(formattedString);
     }
   }

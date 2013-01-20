@@ -7,7 +7,10 @@
  *
  * @author Steve Bartlett 3155051
  */
-public class wordOccurences 
+
+import java.util.Comparator;
+
+public class wordOccurences implements Comparable<wordOccurences>
 
 {
     private String word;
@@ -49,4 +52,12 @@ public class wordOccurences
     {
         return word + "\t" + occurences + "\n";
     }
+    
+    public int compareTo(wordOccurences compareWordOccurences)
+    {
+        int compareOccurrences = ((wordOccurences) compareWordOccurences).getOccurences();
+        
+        return compareOccurrences - this.occurences;
+    }
+    
 }
